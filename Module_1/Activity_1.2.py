@@ -12,3 +12,19 @@ print("hello",5)
 
 #End argument of Print Statement
 print("welcome to ", end= "*")
+
+
+
+# Creating different variables
+x=5
+y="Jhon"
+print(x)
+print(y)
+
+codingal = "codingal"
+print(codingal)
+
+# User Input
+name = input("enter your name: ")
+
+print("\nHello", name, "\nwelcome to codingal")

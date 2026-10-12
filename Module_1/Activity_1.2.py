@@ -1,3 +1,5 @@
+import keyword
+
 #Print a Sentence
 print("Welcome to the world of programming!" )
 
@@ -28,3 +30,9 @@ print(codingal)
 name = input("enter your name: ")
 
 print("\nHello", name, "\nwelcome to codingal")
+
+
+
+# print all the Python keywords
+print("Python keywords are ... \n")
+print(keyword.kwlist)

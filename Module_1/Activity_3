@@ -37,3 +37,17 @@ print(age)
 print("Data Type of age is", type(age))
 
 
+#input a word
+text = str(input("Enter a string: "))
+text_1 = input("Enter a string")
+print(type(text_1))
+print(type(text))
+
+# Reverse String
+#using step value as -1 to iterate in reverse
+
+revText = text[::-1]
+text = revText
+
+print("Reverse of Given String is:")
+print(text)

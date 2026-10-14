@@ -32,3 +32,14 @@ print("the sum of all the 5 trees is: ", sum)
 # FInding the average of trees
 average = sum/5
 print("the average of all the tree is :", average)
+
+# Taking total amount as input from user
+amount=int(input("Please enter amount for withdraw :"))
+
+note_1 = amount//100
+note_2 = (amount%100)//50
+note_3 = ((amount%100)%50)//10
+
+print( "notes of 100 rupee", note_1)
+print("notes of 50 rupee" , note_2)
+print("notes of 10 rupee" , note_3)

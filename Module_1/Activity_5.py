@@ -23,3 +23,12 @@ else:
     print("i is greater than 15")
     print("i'm in else Block")
 print("i'm not in if and not in else Block")        
+
+i = int(input("enter a number"))
+print("Number to be checked :", i)
+
+if i %2==0 :
+    print("THis is an even number")
+
+else:
+    print("This is an odd number")    

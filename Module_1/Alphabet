@@ -1,0 +1,8 @@
+ #1. Ask the user for input
+char = input("Enter a character: ")
+
+# 2. Check if it is a letter
+if char.isalpha():
+    print("It is an alphabet.")
+else:
+    print("It is not an alphabet.")

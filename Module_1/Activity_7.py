@@ -38,4 +38,3 @@ print("\n Electricity Bill", total)
 
 
 
-

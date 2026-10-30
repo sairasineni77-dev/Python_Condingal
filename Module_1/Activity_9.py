@@ -14,3 +14,26 @@ print("\nsum =", sum)
 i = 0
 while i<=0:
     print("I WILL RUN FOREVER")
+    print("The value of i", i)
+    i = i+1
+
+
+
+num = int(input("Enter a number: "))
+
+sum = 0
+
+temp = num
+while temp > 0:
+    digit = temp % 10
+    print("The value of digit", digit)
+    sum += digit ** 3
+    print("The value of sum", sum)
+    temp //= 10
+    print("The value of temp", temp)
+
+if num == sum:
+    print(num, "is an Armstrong number")
+else:
+    print(num, "is not a Armstrong number")
+    

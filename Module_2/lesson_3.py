@@ -37,9 +37,7 @@ def by_three(number):
 
  else:
   return False
-
- print(by_three(9))
- print(by_three(4))
-
-
-
+print("The value is returned here")
+print(by_three(9))
+print("The returned value is False")
+print(by_three(4))

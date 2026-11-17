@@ -27,3 +27,25 @@ def match_words(words):
 
 count = match_words(['abc', 'cfc', 'xyz', 'aba', '1221'])
 print("NUmber of words having first and last character same:", count)
+
+L = [4, 5, 1, 2, 9, 7, 10, 8]
+print("Original List :", L)
+
+count = 0
+
+for i in L:
+    count += i
+
+avg = count/len(L)
+
+print("sum = ", count)
+print("average = ", avg)
+
+L.sort()
+
+print("The sorted list", L)
+
+print("Smallest element is:", L[0])
+print("Largest element is:", L[-1])
+
+

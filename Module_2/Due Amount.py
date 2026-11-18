@@ -1,9 +1,9 @@
-# Ask the user to enter two numbers
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the second number: "))
+def calculate_change(bill, paid):
+    return paid - bill
 
-# Calculate the difference
-difference = num1 - num2
+total_bill = 2.50
+amount_paid = 4.00
 
-# Print the result
-print(f"The difference is: {difference}")
+change = calculate_change(total_bill, amount_paid)
+print(f"Change to return: ${change:.2f}")
+

@@ -14,3 +14,12 @@ print(num_list)
 num_list.pop()
 print("After removing the first element from the said set: ")
 print(num_list,"\n")
+
+setx = {"green", "blue"}
+sety = {"blue", "yellow"}
+print("Original set elements:")
+print(setx)
+print(sety)
+print("\nIntersection of two said sets:")
+setz = setx.intersection(sety)
+print(setz)

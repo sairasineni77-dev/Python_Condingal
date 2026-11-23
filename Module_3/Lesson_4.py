@@ -23,3 +23,5 @@ print(sety)
 print("\nIntersection of two said sets:")
 setz = setx.intersection(sety)
 print(setz)
+
+print(setz.remove)

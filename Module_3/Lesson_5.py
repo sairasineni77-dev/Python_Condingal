@@ -31,3 +31,11 @@ prices = [2175, 1127, 2750]
 new_dict = {stocks: prices for stocks,
 			prices in zip(stocks, prices)}
 print('\n{}'.format(new_dict))
+
+for i in range(10):
+	
+	if i == 5:
+		
+		print(exit)
+		exit()
+	print(i)
